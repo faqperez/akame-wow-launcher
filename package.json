@@ -1,7 +1,7 @@
 {
-  "name": "akame-launcher",
+  "name": "layerforge-launcher",
   "version": "1.1.0",
-  "description": "Akame WoW Server Launcher - Auto-patching, news, and server management",
+  "description": "Layerforge WoW Server Launcher - Auto-patching, news, and server management",
   "main": "src/main/main.js",
   "author": "Akame Team",
   "license": "MIT",
@@ -15,8 +15,8 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "build": {
-    "appId": "com.akame.launcher",
-    "productName": "Akame Launcher",
+    "appId": "com.layerforge.launcher",
+    "productName": "Layerforge Launcher",
     "directories": {
       "output": "dist",
       "buildResources": "build"
@@ -35,7 +35,7 @@
           ]
         }
       ],
-      "artifactName": "AkameLauncher-Setup-${version}.${ext}"
+      "artifactName": "Layerforge-Setup-${version}.${ext}"
     },
     "nsis": {
       "oneClick": false,
@@ -43,7 +43,7 @@
       "allowToChangeInstallationDirectory": true
     },
     "portable": {
-      "artifactName": "AkameLauncher-Portable-${version}.${ext}"
+      "artifactName": "Layerforge-Portable-${version}.${ext}"
     },
     "extraResources": [
       {
